@@ -1,0 +1,195 @@
+/*=========================================================
+	01 -> GENERAL
+===========================================================*/
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+ 
+}
+
+p1{
+font-size:18px;
+}
+
+ h4 {
+  color: #da5617;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+a {
+  color: #2B2D42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover, a:focus {
+  color: linear-gradient(to right, #0083B0, #00B4DB);
+  text-decoration: none;
+  outline: none;
+}
+
+.button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+}
+
+/*=========================================================
+	02 -> HEADER
+===========================================================*/
+*{
+margin: 0;
+padding: 0;
+}
+         
+.wrapper{
+width: 860px; 
+margin: 0 auto;
+}
+.wrapper ul{
+list-style: none;
+margin-top: 1%;
+}
+.wrapper ul li {
+
+width: 170px;
+
+height: 50px;
+line-height: 50px;
+
+
+color: #000;
+font-size: 16px;
+position: relative;
+font-family: 'Montserrat', sans-serif;
+
+}
+.wrapper ul li:hover{
+background: #99999926; 
+}
+
+.wrapper ul ul{
+display: none;
+}
+.wrapper ul li:hover > ul{
+display: block;
+}
+.wrapper ul ul ul{
+margin-left: 170px;
+top: 0;
+position: absolute;
+}
+
+/*----------------------------*\
+	Top header
+\*----------------------------*/
+
+#top-header {
+
+}
+
+.header-links li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.header-links li:last-child {
+  margin-right: 0px;
+}
+
+.header-links li a {
+  color: #FFF;
+}
+
+.header-links li a:hover {
+  color: #D10024;
+}
+
+.header-links li i {
+  color: #D10024;
+  margin-right: 5px;
+}
+
+/*----------------------------*\
+	Logo
+\*----------------------------*/
+
+#header {
+  padding-top: 15px;
+  background-color: #0e3f67;
+}
+
+
+/*----------------------------*\
+	Search
+\*----------------------------*/
+
+.header-search {
+  padding: 15px 0px;
+}
+
+.header-search form {
+  position: relative;
+}
+
+.header-search form .input-select {
+  margin-right: -4px;
+  border-radius: 40px 0px 0px 40px;
+height: 40px;
+border: 1px solid #E4E7ED;
+padding: 0px 15px
+}
+
+.header-search form .input {
+  width: calc(120% - 260px);
+  margin-right: -4px;
+height: 40px;
+border: 1px solid #E4E7ED;
+padding: 0px 15px;
+border-radius: 40px 0px 0px 40px;
+}
+
+.header-search form .search-btn {
+  height: 40.5px;
+  width: 100px;
+ background: #239425;  
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
+
+/*----------------------------*\
+	Cart
+\*----------------------------*/
+
+
+
+/*=========================================================
+	03 -> Navigation
+===========================================================*/
+
+#navigation {
+  background: #FFF;
+  border-bottom: 2px solid #E4E7ED;
+border-top: 2px solid #4e6980;
+}
+
